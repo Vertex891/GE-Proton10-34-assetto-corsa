@@ -16,6 +16,8 @@
 
 <img width="360" height="111" alt="Screenshot_2026-05-20_22 02 56" src="https://github.com/user-attachments/assets/f40d0619-b98f-4c8a-b444-00f44be94e0b" />
 
+  - You may need to reboot after this step.
+
 3. Visit the repository above and grab the script, you can use the script by copying the curl command there and pasting it in terminal.
 
 4. Run the script.
@@ -76,6 +78,7 @@
 >AFTER THIS STEP DO NOT LAUNCH THE GAME UNTIL THE END OF THE GUIDE OR IT WILL GENERATE A COMPLETELY NEW WINE PREFIX AND YOU WILL LIKELY HAVE TO REINSTALL.
 
 2. Install protontricks ```$ sudo pacman -S protontricks``` and launch it.
+   - It will have some errors, close them or click `no`.
 
 3. Click `Assetto Corsa` and click `ok`.
 
