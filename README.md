@@ -17,9 +17,10 @@
     - it will ask you if you want to install GE-Proton 9-20. type `y` and press `enter`.
       
     - it will now ask you to close steam, relaunch it, and run assetto corsa to generate a new wine prefix
-      - tip: make sure that GE-Proton 9-20 is set in compatibility tab before you do first launch.  
-      *right click on the game in your library and click properties / compatibility*
-  
+      - Restarting steam is important! 
+        - tip: make sure that GE-Proton 9-20 is set in compatibility tab before you do first launch.
+          *right click on the game in your library and click properties / compatibility*
+        - If GE-Proton9-20 still doesn't show up after restarting steam, reboot and it should appear.  
           >**IMPORTANT:**  
           >**FIRST LAUNCH IS GOING TO TAKE A WHILE**  
           >it may appear nothing is happening but let it go until you get to the assetto corsa main menu  
@@ -39,8 +40,13 @@
     - it will ask if you want to resolve input mapping issues. type `n` and press `enter`.
       
     - it will ask to install dxvk. type `y` and press `enter`.
-  
-6. launch assetto corsa and join a public server requiring csp to ensure no csp errors.
+
+6. launch assetto corsa from steam and it should open content manager and ask for your game directory
+    - your game directory will likely be in `/home/yourname/.local/share/Steam/steamapps/common/assettocorsa` replacing /yourname/ with your username
+      >>add a Z: to the beginning when relating to content manager.
+      >>>for example `Z:/home/yourname/.local/share/Steam/steamapps/common/assettocorsa`
+
+7. join a public server requiring csp to ensure no csp errors.
     - if you receive a failed to patch assetto corsa error from csp, the only know fix is to reinstall AC
 
 ### now the game should work fine for some of you, but on GE-Proton 9-20, my generic shifter isn't recognized and performance is poor. so now we'll configure GE-proton 10-34.  
