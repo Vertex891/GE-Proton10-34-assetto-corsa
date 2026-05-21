@@ -75,7 +75,7 @@
 
 >AFTER THIS STEP DO NOT LAUNCH THE GAME UNTIL THE END OF THE GUIDE OR IT WILL GENERATE A COMPLETELY NEW WINE PREFIX AND YOU WILL LIKELY HAVE TO REINSTALL.
 
-2. Install protontricks ```sudo pacman -S protontricks``` and launch it.
+2. Install protontricks ```$ sudo pacman -S protontricks``` and launch it.
 
 3. Click `Assetto Corsa` and click `ok`.
 
